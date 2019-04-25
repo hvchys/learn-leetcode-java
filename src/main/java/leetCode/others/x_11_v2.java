@@ -6,6 +6,8 @@ public class x_11_v2 {
     冒泡排序，太慢了
     改成 快速排序
     也不行，如果原来的数组很大，还彻底是个逆序的话，就完了
+
+    https://leetcode.com/problems/container-with-most-water/discuss/6099/Yet-another-way-to-see-what-happens-in-the-O(n)-algorithm
      */
 
     public static void swap(int[] arr, int i, int j){

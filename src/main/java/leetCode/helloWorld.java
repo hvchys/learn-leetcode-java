@@ -1,5 +1,10 @@
 package leetCode;
 
+
+import Util.printIntData;
+
+
+
 public class helloWorld {
 
     public static int getIth(int x){

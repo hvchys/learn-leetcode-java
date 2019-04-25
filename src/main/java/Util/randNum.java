@@ -53,7 +53,7 @@ public class randNum {
     public static void main(String[] args){
         int[] arr = shuffleArr(10);
 
-        printIntData.ver1arr("arr", arr);
+        printIntData.ver1arr("leetCode/arr", arr);
 
     }
 

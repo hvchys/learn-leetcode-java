@@ -6,7 +6,7 @@ import java.util.HashSet;
 public class printIntData {
 
     public static String intArrPartToStr(Integer[] arr, int startIdx, int endIdx){
-        // 打印: arr[startIdx] ~ arr[endIdx]
+        // 打印: leetCode.arr[startIdx] ~ leetCode.arr[endIdx]
         StringBuilder sb = new StringBuilder();
         assert endIdx > startIdx;
         for(int i = startIdx; i < endIdx; i++){
@@ -17,7 +17,7 @@ public class printIntData {
     }
 
     public static String intArrPartToStr(int[] arr, int startIdx, int endIdx){
-        // 打印: arr[startIdx] ~ arr[endIdx]
+        // 打印: leetCode.arr[startIdx] ~ leetCode.arr[endIdx]
         StringBuilder sb = new StringBuilder();
         assert endIdx > startIdx;
         for(int i = startIdx; i < endIdx; i++){

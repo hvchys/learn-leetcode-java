@@ -12,7 +12,7 @@ public class writeFile {
     public static void wirteAns(String inputPath, String content){
         try{
             File fileName = new File(inputPath);
-            List preList = new ArrayList<>();
+            List<String> preList = new ArrayList<String>();
             if(fileName.exists()){
                 preList = getPreFile(inputPath); // 读入文件之前的内容
             }else{
@@ -32,7 +32,7 @@ public class writeFile {
     }
 
     public static List<String> getPreFile(String filePath){
-        List preList = new ArrayList<>();
+        List<String> preList = new ArrayList<String>();
         File fileName = new File(filePath);
         try{
             BufferedReader in = new BufferedReader(new FileReader(fileName.getAbsolutePath()));

@@ -170,7 +170,7 @@ public class x_8_str_to_int {
     }
 
     public static Integer[] getIntArr(String str, int idxStart, int eleNum){
-        List<Integer> ansList = new ArrayList<>();
+        List<Integer> ansList = new ArrayList<Integer>();
         char curX;
         int curInt;
         // 已经确保 idxStart 肯定是数字了

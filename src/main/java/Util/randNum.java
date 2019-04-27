@@ -27,7 +27,7 @@ public class randNum {
     }
 
     // 返回一个随机数，属于 [min, max]
-    private static int randInt(int min, int max){
+    public static int randInt(int min, int max){
         // 返回a~(a+b)之间的一个随机整数：[a, a+b)  (包括a，不包括a+b)
         // (int)(a + Math.random()*b);
         int b = max - min + 1;

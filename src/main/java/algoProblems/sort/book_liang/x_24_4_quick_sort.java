@@ -86,7 +86,7 @@ public class x_24_4_quick_sort {
         else{
 
             info = "place3: low: "+low+", high: "+high;
-            printIntData.arrWithIdxPart(info, arr, first, last);
+            printIntData.printArrWithIdxPart(info, arr, first, last);
             System.out.println("return: " + first);
 
             return first;

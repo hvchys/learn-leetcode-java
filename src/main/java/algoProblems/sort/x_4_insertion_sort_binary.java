@@ -32,7 +32,7 @@ public class x_4_insertion_sort_binary {
 
     public static void main(String args[]) {
         int[] oriArr = new int[8];
-        randNum.getIntArr(oriArr, 10, 60);
+        randNum.getUniqueIntArr(oriArr, 10, 60);
 
         printIntData.ver1arr("", oriArr);
         sort(oriArr);

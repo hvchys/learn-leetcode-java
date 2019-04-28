@@ -13,7 +13,8 @@ public class randNum {
     }
 
     // 产生一个数列 ver1arr, 其中每个元素属于 [min, max]
-    public static void getIntArr(int[] arr, int min, int max){
+    // 数列里面 没有 重复元素
+    public static void getUniqueIntArr(int[] arr, int min, int max){
         int i = 1;
         int x;
         arr[0] = randInt(min, max);
@@ -21,6 +22,19 @@ public class randNum {
             x = randInt(min, max);
             while(isInArr(arr, i-1, x))
                 x = randInt(min, max);
+            arr[i] = x;
+            i++;
+        }
+    }
+
+    // 产生一个数列 ver1arr, 其中每个元素属于 [min, max]
+    // 数列里面 可以有 重复元素
+    public static void getIntArr(int[] arr, int min, int max){
+        int i = 1;
+        int x;
+        arr[0] = randInt(min, max);
+        while(i < arr.length){
+            x = randInt(min, max);
             arr[i] = x;
             i++;
         }

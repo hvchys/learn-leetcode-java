@@ -57,7 +57,7 @@ public class useQuickSort {
 
     public static void check(int eleNum, int k){
         int[] oriArr = new int[eleNum];
-        randNum.getIntArr(oriArr, 10, 60);
+        randNum.getUniqueIntArr(oriArr, 10, 60);
 
         int[] copyArr = new int[eleNum];
         System.arraycopy(oriArr, 0, copyArr, 0, oriArr.length);

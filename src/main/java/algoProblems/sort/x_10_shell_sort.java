@@ -37,7 +37,7 @@ public class x_10_shell_sort {
     // Driver method
     public static void main(String args[]) {
         int[] oriArr = new int[8];
-        randNum.getIntArr(oriArr, 10, 60);
+        randNum.getUniqueIntArr(oriArr, 10, 60);
 
         printIntData.ver1arr("", oriArr);
         sort(oriArr);

@@ -14,7 +14,7 @@ public class xx_check {
 
     public static void main(String[] args){
         int[] oriArr = new int[20];
-        randNum.getIntArr(oriArr, 10, 60);
+        randNum.getUniqueIntArr(oriArr, 10, 60);
         int topK = 5;
 
         SolveTopK xxBubble = new useBubble();

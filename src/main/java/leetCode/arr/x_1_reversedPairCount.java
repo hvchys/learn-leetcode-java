@@ -110,7 +110,7 @@ public class x_1_reversedPairCount {
 //        System.out.println(ans_2);
 
         int[] arr = new int[13];
-        randNum.getIntArr(arr, 10, 40);
+        randNum.getUniqueIntArr(arr, 10, 40);
 
         // int[] leetCode.arr = {1,3,2};
 

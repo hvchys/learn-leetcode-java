@@ -18,6 +18,8 @@ public class printIntData {
 
     public static String intArrPartToStr(int[] arr, int startIdx, int endIdx){
         // 打印: leetCode.arr[startIdx] ~ leetCode.arr[endIdx]
+        if(endIdx < startIdx)
+            return "";
         StringBuilder sb = new StringBuilder();
         assert endIdx > startIdx;
         for(int i = startIdx; i < endIdx; i++){
@@ -108,11 +110,17 @@ public class printIntData {
 
     public static void arrWithIdx(String info, int[] arr){
         int last = arr.length - 1;
-        arrWithIdxPart(info, arr, 0, last);
+        String str = arrWithIdxPart(info, arr, 0, last);
+        System.out.println(str);
+    }
+
+    public static void printArrWithIdxPart(String info, int[] arr, int first, int last){
+        String str = arrWithIdxPart(info, arr, first, last);
+        System.out.println(str);
     }
 
     // 只打印，index = [first, last] 的部分
-    public static void arrWithIdxPart(String info, int[] arr, int first, int last){
+    public static String arrWithIdxPart(String info, int[] arr, int first, int last){
         int selLen = last - first + 1;
         String[] strArr = new String[selLen];
         String curStr;
@@ -127,9 +135,9 @@ public class printIntData {
         }
         String allStr = strArrToStr(strArr);
         if(info.equals("")){
-            System.out.println(allStr);
+            return allStr;
         }else{
-            System.out.println(info + ": "+ allStr);
+            return info + ": "+ allStr;
         }
     }
 

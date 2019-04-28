@@ -8,14 +8,14 @@ public class x_1_quickSort_clear_partition {
 
     public static void checkPartition(){
         int[] oriArr = new int[10];
-        randNum.getIntArr(oriArr, 10, 60);
+        randNum.getUniqueIntArr(oriArr, 10, 60);
 
         int idxStart = 2;
         int idxEnd = 7;
         int[] idxArr = {idxStart, idxEnd};
         printIntData.arrWithMarkPart("ori", oriArr, idxArr, "index", idxStart, idxEnd);
         int partition = partition_v2(oriArr, idxStart, idxEnd);
-        printIntData.arrWithIdxPart("", oriArr, idxStart, idxEnd);
+        printIntData.printArrWithIdxPart("", oriArr, idxStart, idxEnd);
         System.out.println("partition: " + partition);
     }
 

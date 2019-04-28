@@ -51,7 +51,7 @@ public class x_1_quickSort_clear {
 
     public static void main(String[] args){
         int[] oriArr = new int[10];
-        randNum.getIntArr(oriArr, 10, 60);
+        randNum.getUniqueIntArr(oriArr, 10, 60);
 
         printIntData.ver1arr("", oriArr);
         sort(oriArr);

@@ -29,7 +29,7 @@ public class x_2_selection_sort {
 
     public static void main(String args[]) {
         int[] oriArr = new int[8];
-        randNum.getIntArr(oriArr, 10, 60);
+        randNum.getUniqueIntArr(oriArr, 10, 60);
 
         printIntData.ver1arr("", oriArr);
         sort(oriArr);

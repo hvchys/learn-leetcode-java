@@ -1,4 +1,4 @@
-package leetCode.arr;
+package leetCode.binarySearch;
 
 public class x_704_binary_search {
     /*

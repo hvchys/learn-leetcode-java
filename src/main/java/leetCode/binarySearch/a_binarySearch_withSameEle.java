@@ -13,6 +13,12 @@ import java.util.HashSet;
 
 public class a_binarySearch_withSameEle {
 
+    // 【这个问题我想不清楚】【答案没错，但是我不是很理解】
+    // arr[i~j]里面, 找 k，使得 arr[k] < x < arr[k+1]: 如果 arr里面有多个元素和 x 相等，返回 最前面 那个
+    // 如果 x 比所有元素大 or x 比所有元素小 返回 -1
+    // 如果 x < arr[i]: 返回 -1
+    // 如果 x > arr[j]: 返回 -1
+
     public static int count_a1 = 0;
     public static int count_a2 = 0;
     public static int count_a3 = 0;
@@ -36,10 +42,6 @@ public class a_binarySearch_withSameEle {
     }
 
     public static Pair<Integer, String> binarySearch(int[] arr, double x){
-        // arr[i~j]里面, 找 k，使得 arr[k] < x < arr[k+1]: 如果 arr里面有多个元素和 x 相等，返回 最前面 那个
-        // 如果 x 比所有元素大 or x 比所有元素小 返回 -1
-        // 如果 x < arr[i]: 返回 -1
-        // 如果 x > arr[j]: 返回 -1
         int idxStart = 0;
         int idxEnd = arr.length - 1;
         int mid = (idxStart + idxEnd)/2;
@@ -318,5 +320,30 @@ public class a_binarySearch_withSameEle {
             System.out.println("x: " + x);
             System.out.println("simple: " + ans_2);
         }
+    }
+
+
+    public static int simpleSearch(int[] arr, int idx1, int idx2, int x){
+        int eleNum = idx2 - idx1 + 1;
+
+        // 情形1: 有元素 和 x 相等
+        HashSet<Integer> eleSet = new HashSet<Integer>();
+        for(int cur: arr){
+            eleSet.add(cur);
+        }
+        if(eleSet.contains(x)){
+            // 从前往后找吧
+            for(int i = idx1; i < eleNum; i++){
+                if(arr[i] == x)
+                    return i;
+            }
+        }
+
+        // 情形2: 没有元素 和 x 相等
+        for(int i = idx1; i <= idx2; i++){
+            if(arr[i] < x && x < arr[i+1])
+                return i;
+        }
+        return -1;
     }
 }

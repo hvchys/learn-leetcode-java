@@ -2,44 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d872ccba-6319-40d6-8f2a-089b402749e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/printIntData.java" afterPath="$PROJECT_DIR$/src/main/java/Util/printIntData.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/randNum.java" afterPath="$PROJECT_DIR$/src/main/java/Util/randNum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/getKth/useQuickSort.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/getKth/useQuickSort.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/book_liang/x_24_4_quick_sort.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/book_liang/x_24_4_quick_sort.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_10_shell_sort.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_10_shell_sort.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_1_quickSort_clear.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_1_quickSort_clear.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_1_quickSort_clear_partition.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_1_quickSort_clear_partition.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_2_selection_sort.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_2_selection_sort.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_4_insertion_sort_binary.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_4_insertion_sort_binary.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_4_insertion_sort_simple.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_4_insertion_sort_simple.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_6_merge_sort_save_space.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_6_merge_sort_save_space.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_6_merge_sort_simple.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_6_merge_sort_simple.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoProblems/topK/xx_check.java" afterPath="$PROJECT_DIR$/src/main/java/algoProblems/topK/xx_check.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/arr/x_15_3sum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/arr/x_15_v2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/arr/x_1_reversedPairCount.java" afterPath="$PROJECT_DIR$/src/main/java/leetCode/arr/x_1_reversedPairCount.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/arr/x_704_binary_search.java" afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/x_704_binary_search.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/arr/x_704_other_question.java" afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/x_704_other_question.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/printIntData.class" afterPath="$PROJECT_DIR$/target/classes/Util/printIntData.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/randNum.class" afterPath="$PROJECT_DIR$/target/classes/Util/randNum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/getKth/useQuickSort.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/getKth/useQuickSort.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_10_shell_sort.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_10_shell_sort.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_1_quickSort_clear.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_1_quickSort_clear.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_1_quickSort_clear_partition.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_1_quickSort_clear_partition.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_2_selection_sort.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_2_selection_sort.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_4_insertion_sort_binary.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_4_insertion_sort_binary.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_4_insertion_sort_simple.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_4_insertion_sort_simple.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_6_merge_sort_save_space.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_6_merge_sort_save_space.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_6_merge_sort_simple.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/sort/x_6_merge_sort_simple.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoProblems/topK/xx_check.class" afterPath="$PROJECT_DIR$/target/classes/algoProblems/topK/xx_check.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/arr/x_15_3sum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/arr/x_15_v2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/arr/x_1_quickSort_clear.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/arr/x_1_reversedPairCount.class" afterPath="$PROJECT_DIR$/target/classes/leetCode/arr/x_1_reversedPairCount.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/arr/x_704_binary_search.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/arr/x_704_other_question.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/a_binarySearch_withSameEle.java" afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/a_binarySearch_withSameEle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v3.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_167_TwoSum_2_InputSortedArr.java" afterPath="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_167_TwoSum_2_InputSortedArr.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/binarySearch/a_binarySearch_withSameEle.class" afterPath="$PROJECT_DIR$/target/classes/leetCode/binarySearch/a_binarySearch_withSameEle.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/twoSum/x_15_3sum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/twoSum/x_15_v3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/twoSum/x_167_TwoSum_2_InputSortedArr.class" afterPath="$PROJECT_DIR$/target/classes/leetCode/twoSum/x_167_TwoSum_2_InputSortedArr.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetCode/twoSum/x_1_quickSort_clear.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,36 +24,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/learn_leetcode_java$x_15_3sum_v2.coverage" NAME="x_15_3sum_v2 Coverage Results" MODIFIED="1556556997765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetCode.twoSum.x_15_3sum.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="a_binarySearch_withSameEle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/binarySearch/a_binarySearch_withSameEle.java">
+      <file leaf-file-name="x_15_3sum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="171" column="8" lean-forward="true" selection-start-line="171" selection-start-column="8" selection-end-line="189" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="x_167_TwoSum_2_InputSortedArr.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_167_TwoSum_2_InputSortedArr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="108" column="20" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="108" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="x_15_v3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
-                <element signature="e#3888#3897#0" expanded="true" />
+                <marker date="1556555702486" expanded="false" signature="4052:4061" ph="&lt;~&gt;" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="x_15_3sum_v2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum_v2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,6 +71,7 @@
       <find>println</find>
       <find>arrWithIdxPart</find>
       <find>int binarySearch_2</find>
+      <find>findMedianSortedArrays</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,9 +113,15 @@
         <option value="$PROJECT_DIR$/src/main/java/algoProblems/sort/x_1_quickSort_clear_partition.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoProblems/sort/book_liang/x_24_4_quick_sort.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_167_v2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v3.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/a_binarySearch_withSameEle.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_167_TwoSum_2_InputSortedArr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum_v2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum_v3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum_v3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum_v2.java" />
       </list>
     </option>
   </component>
@@ -155,7 +131,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="369" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -175,7 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,60 +184,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="arr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="twoSum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="twoSum" type="462c0819:PsiDirectoryNode" />
-              <item name="x_15_v3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="learn-leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,8 +211,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/leetCode/twoSum" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetCode.twoSum" />
@@ -289,8 +221,8 @@
       <recent name="leetCode.others" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/leetCode/twoSum" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.x_15_v3">
+  <component name="RunManager" selected="Application.x_15_3sum_v2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -346,14 +278,14 @@
       <module name="learn-leetcode-java" />
       <envs />
     </configuration>
-    <configuration name="x_15_v2" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="x_15_3sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="leetCode.binarySearch.*" />
+          <option name="PATTERN" value="leetCode.twoSum.x_15_3sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode.arr.x_15_v2" />
+      <option name="MAIN_CLASS_NAME" value="leetCode.twoSum.x_15_3sum.x_15_3sum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -365,14 +297,33 @@
       <module name="learn-leetcode-java" />
       <envs />
     </configuration>
-    <configuration name="x_15_v3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="x_15_3sum_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="leetCode.twoSum.*" />
+          <option name="PATTERN" value="leetCode.twoSum.x_15_3sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode.twoSum.x_15_v3" />
+      <option name="MAIN_CLASS_NAME" value="leetCode.twoSum.x_15_3sum.x_15_3sum_v2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="learn-leetcode-java" />
+      <envs />
+    </configuration>
+    <configuration name="x_15_v2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetCode.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetCode.arr.x_15_v2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -406,30 +357,11 @@
     <configuration name="x_167_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="leetCode.twoSum.*" />
+          <option name="PATTERN" value="leetCode.twoSum.x_15_3sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="leetCode.twoSum.x_167_v2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learn-leetcode-java" />
-      <envs />
-    </configuration>
-    <configuration name="x_704_other_question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="leetCode.binarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.x_704_other_question" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -503,19 +435,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.x_15_v2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.x_704_other_question" />
-      <item index="2" class="java.lang.String" itemvalue="Application.x_167_TwoSum_2_InputSortedArr" />
-      <item index="3" class="java.lang.String" itemvalue="Application.a_binarySearch_withSameEle" />
-      <item index="4" class="java.lang.String" itemvalue="Application.x_167_v2" />
-      <item index="5" class="java.lang.String" itemvalue="Application.x_15_v3" />
+      <item index="1" class="java.lang.String" itemvalue="Application.x_167_TwoSum_2_InputSortedArr" />
+      <item index="2" class="java.lang.String" itemvalue="Application.a_binarySearch_withSameEle" />
+      <item index="3" class="java.lang.String" itemvalue="Application.x_167_v2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.x_15_3sum" />
+      <item index="5" class="java.lang.String" itemvalue="Application.x_15_3sum_v2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.x_15_v3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.x_167_v2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.x_167_TwoSum_2_InputSortedArr" />
-        <item index="3" class="java.lang.String" itemvalue="Application.a_binarySearch_withSameEle" />
-        <item index="4" class="java.lang.String" itemvalue="Application.x_704_other_question" />
+        <item index="0" class="java.lang.String" itemvalue="Application.x_15_3sum_v2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.x_15_3sum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.x_167_v2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.x_167_TwoSum_2_InputSortedArr" />
+        <item index="4" class="java.lang.String" itemvalue="Application.a_binarySearch_withSameEle" />
       </list>
     </recent_temporary>
   </component>
@@ -550,12 +482,14 @@
       <workItem from="1556278366393" duration="3782000" />
       <workItem from="1556285974317" duration="4594000" />
       <workItem from="1556294338167" duration="11347000" />
-      <workItem from="1556445189445" duration="9348000" />
+      <workItem from="1556445189445" duration="11217000" />
+      <workItem from="1556550253395" duration="8928000" />
+      <workItem from="1556622078541" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46040000" />
+    <option name="totallyTimeSpent" value="57445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,12 +501,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="369" y="23" width="1280" height="777" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -583,11 +515,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43854326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19789983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.49" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -596,7 +527,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.51" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -619,10 +553,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39301974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39301974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43854326" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19789983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -640,35 +574,11 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoProblems/x_3_n_queens/javaFX/SessionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoProblems/sort/x_10_shell_sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoProblems/x_3_n_queens/javaFX/SolverStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoProblems/sort/book_liang/x_24_5_heap_sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algoProblems/sort/x_8_counting_sort_char.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -865,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="63" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="86" column="8" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,17 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_1_two_sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="e#699#717#0" expanded="true" />
-            <element signature="e#1337#1355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/helloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -948,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="72" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,22 +867,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="78" column="43" lean-forward="false" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/arr/x_4_z_linear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="339">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="55" selection-end-column="7" />
+          <folding>
+            <marker date="1556555702486" expanded="false" signature="4052:4061" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_1_two_sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/binarySearch/a_binarySearch_withSameEle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1696">
-          <caret line="114" column="15" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="114" selection-end-column="15" />
+        <state relative-caret-position="133">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_167_TwoSum_2_InputSortedArr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1002,29 +931,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/binarySearch/a_binarySearch_withSameEle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum_v2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="171" column="8" lean-forward="true" selection-start-line="171" selection-start-column="8" selection-end-line="189" selection-end-column="20" />
+        <state relative-caret-position="362">
+          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_167_TwoSum_2_InputSortedArr.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="108" column="20" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="108" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_v3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
-            <element signature="e#3888#3897#0" expanded="true" />
+            <marker date="1556555702486" expanded="false" signature="4052:4061" ph="&lt;~&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/twoSum/x_15_3sum/x_15_3sum_v2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

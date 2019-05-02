@@ -23,22 +23,19 @@ public class x_15_3sum_v2 {
         int eleNum = nums.length;
         int preFirstVal = Integer.MIN_VALUE, curFirstVal;
         int idx2Min = 1, idx3Max = nums.length-1;
-        for(int i = 0; i < eleNum-2; i++){
+        for(int i = 0; i < eleNum-2; i++, idx2Min++){
             FIRST_IDX = i;
 
-            // 方法1:
-            // idx2Min++;
-            // 方法2:
-            idx2Min = toTheRight(nums, idx2Min, idx3Max);
-            if(idx2Min == -1)
-                break;
+//            idx2Min = toTheRight(nums, idx2Min, idx3Max);
+//            if(idx2Min == -1)
+//                break;
+
+            System.out.println("i: " + i + ", idx2Min: " + idx2Min + ", idx3Max: " + idx3Max);
 
             curFirstVal = nums[i];
             if(curFirstVal == preFirstVal){
                 idx2Min = toTheRight(nums, idx2Min, idx3Max);
                 idx3Max = toTheLeft(nums, idx3Max, idx2Min);
-//                idx2Min++;
-//                idx3Max--;
             }else{
                 preFirstVal = curFirstVal;
             }
@@ -55,6 +52,8 @@ public class x_15_3sum_v2 {
         int idxLeft = idxStart, idxRight = idxEnd, sum = -firstVal;
         int curSum;
         while (idxLeft < idxRight && idxLeft != -1 && idxRight != -1) {
+            System.out.println("line 54, idx: " + FIRST_IDX + ", " + idxLeft + ", " + idxRight);
+
             curSum = arr[idxLeft] + arr[idxRight];
             if(curSum > sum){
                 idxRight = toTheLeft(arr, idxRight, idxLeft);

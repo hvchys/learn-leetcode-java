@@ -37,6 +37,12 @@ public class helloWorld {
 
 
         System.out.println("test");
+
+        char[] xxChar = {'(', ')', '{', '}', '[', ']'};
+        for (char c: xxChar){
+            System.out.println(c + " " + (int)c);
+        }
+
     }
 }
 

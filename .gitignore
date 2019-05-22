@@ -1,0 +1,9 @@
+target/
+target/*
+*.iml
+*.log
+.idea/
+.idea/workspace.xml
+dependency-reduced-pom.xml
+lib_managed/
+metastore_db/

@@ -157,7 +157,7 @@ public class x_15_3sum {
 //                if(curAns.get(1) > x2)
 //                    return true;
 //                else if(curAns.get(1) == x2){
-//                    // check
+//                    // simple
 //                    if(curAns.get(2) > x3)
 //                        return true;
 //                    else if(curAns.get(2) == x3)
@@ -256,11 +256,11 @@ public class x_15_3sum {
 //    public static void printInfo(int[] arr, int midIdx, int midIdxCheck){
 //        String info;
 //        if(midIdx != -1 && midIdxCheck != -1){
-//            info = "midIdx: " + midIdx + ", " + arr[midIdx] + " | check: " + midIdxCheck + ", " + arr[midIdxCheck];
+//            info = "midIdx: " + midIdx + ", " + arr[midIdx] + " | simple: " + midIdxCheck + ", " + arr[midIdxCheck];
 //        }else if(midIdx == -1){
-//            info = "midIdx: " + midIdx + " | check: " + midIdxCheck + ", " + arr[midIdxCheck];
+//            info = "midIdx: " + midIdx + " | simple: " + midIdxCheck + ", " + arr[midIdxCheck];
 //        }else{
-//            info = "midIdx: " + midIdx + ", " + arr[midIdx] + " | check: " + midIdxCheck;
+//            info = "midIdx: " + midIdx + ", " + arr[midIdx] + " | simple: " + midIdxCheck;
 //        }
 //        System.out.println(info);
 //    }

@@ -51,9 +51,9 @@ public class x_7_v2 {
         // arr的位数，是 10 位，检查它的reverse 是不是越界了
         for(int i = 0; i < 10; i++){
             /*
-            leetCode.arr < check: 不大 返回 false
-            leetCode.arr == check: 平手，继续
-            leetCode.arr > check: 大 返回 true
+            leetCode.arr < simple: 不大 返回 false
+            leetCode.arr == simple: 平手，继续
+            leetCode.arr > simple: 大 返回 true
              */
             if(arr[i] < check[i])
                 return false;

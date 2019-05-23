@@ -46,7 +46,7 @@ public class x_7_radix_sort {
 
     }
 
-    /*Driver function to check for above function*/
+    /*Driver function to simple for above function*/
     public static void main (String[] args) {
         int[] arr = {170, 45, 75, 90, 802, 24, 2, 66};
         int n = arr.length;

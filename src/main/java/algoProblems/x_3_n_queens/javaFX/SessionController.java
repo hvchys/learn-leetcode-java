@@ -112,17 +112,17 @@ public class SessionController {
 
     @FXML
     void initialize() {
-        assert mainWordPane != null : "fx:id=\"mainWordPane\" was not injected: check your FXML file 'session.fxml'.";
-        assert saTemperature != null : "fx:id=\"saTemperature\" was not injected: check your FXML file 'session.fxml'.";
-        assert saCoolingFactor != null : "fx:id=\"saCoolingFactor\" was not injected: check your FXML file 'session.fxml'.";
-        assert lbIterations != null : "fx:id=\"lbIterations\" was not injected: check your FXML file 'session.fxml'.";
-        assert hcIterations != null : "fx:id=\"hcIterations\" was not injected: check your FXML file 'session.fxml'.";
-        assert queens != null : "fx:id=\"queens\" was not injected: check your FXML file 'session.fxml'.";
-        assert splitWordList != null : "fx:id=\"splitWordList\" was not injected: check your FXML file 'session.fxml'.";
-        assert saIterations != null : "fx:id=\"saIterations\" was not injected: check your FXML file 'session.fxml'.";
-        assert lbStates != null : "fx:id=\"lbStates\" was not injected: check your FXML file 'session.fxml'.";
-        assert gaGenerations != null : "fx:id=\"gaGenerations\" was not injected: check your FXML file 'session.fxml'.";
-        assert gaMutationProbability != null : "fx:id=\"gaMutationProbability\" was not injected: check your FXML file 'session.fxml'.";
+        assert mainWordPane != null : "fx:id=\"mainWordPane\" was not injected: simple your FXML file 'session.fxml'.";
+        assert saTemperature != null : "fx:id=\"saTemperature\" was not injected: simple your FXML file 'session.fxml'.";
+        assert saCoolingFactor != null : "fx:id=\"saCoolingFactor\" was not injected: simple your FXML file 'session.fxml'.";
+        assert lbIterations != null : "fx:id=\"lbIterations\" was not injected: simple your FXML file 'session.fxml'.";
+        assert hcIterations != null : "fx:id=\"hcIterations\" was not injected: simple your FXML file 'session.fxml'.";
+        assert queens != null : "fx:id=\"queens\" was not injected: simple your FXML file 'session.fxml'.";
+        assert splitWordList != null : "fx:id=\"splitWordList\" was not injected: simple your FXML file 'session.fxml'.";
+        assert saIterations != null : "fx:id=\"saIterations\" was not injected: simple your FXML file 'session.fxml'.";
+        assert lbStates != null : "fx:id=\"lbStates\" was not injected: simple your FXML file 'session.fxml'.";
+        assert gaGenerations != null : "fx:id=\"gaGenerations\" was not injected: simple your FXML file 'session.fxml'.";
+        assert gaMutationProbability != null : "fx:id=\"gaMutationProbability\" was not injected: simple your FXML file 'session.fxml'.";
 
 
         mainWordPane.setCenter(guiPuzzle);

@@ -70,7 +70,7 @@ public class xx_PQBetter {
                 // 如果 v 不在MST里面，边(u,v)的权 < key[v], 则: key[v]更新为: 边(u,v)的权
                 if(!mst[vOriIdx]) {
                     int newKey = uToVEdge.weight;
-                    //check if updated key < existing key, if yes, update if
+                    //simple if updated key < existing key, if yes, update if
                     if(key[vOriIdx] > newKey) {
                         // add it to the priority queue
                         Pair<Integer, Integer> p = new Pair<>(newKey, vOriIdx);

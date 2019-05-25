@@ -64,8 +64,4 @@ public class x_19_RemoveNthNodeFromEndOfList {
 
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
+

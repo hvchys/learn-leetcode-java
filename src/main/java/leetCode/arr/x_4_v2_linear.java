@@ -1,6 +1,6 @@
 package leetCode.arr;
 
-public class x_4_z_linear {
+public class x_4_v2_linear {
 
     /*
     There are two sorted arrays nums1 and nums2 of size m and n respectively.
@@ -145,7 +145,7 @@ public class x_4_z_linear {
     }
 
     public static void main(String[] args){
-        int[] arr1 = {1,2};
+        int[] arr1 = {1,2,2};
         int[] arr2 = {3,4,5};
 
         double ans = findMedianSortedArrays(arr1, arr2);

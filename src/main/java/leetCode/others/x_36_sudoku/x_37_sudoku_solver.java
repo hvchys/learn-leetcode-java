@@ -1,4 +1,4 @@
-package leetCode.others.sudoku;
+package leetCode.others.x_36_sudoku;
 
 
 import java.util.HashSet;

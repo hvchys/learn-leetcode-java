@@ -17,7 +17,7 @@
 ------------------------------------------------------------------------------------------
 【q167】: Two Sum II - Input array is sorted
 【方法1】 
-我的思路(有些复杂): 找到 sum/2 的 idx, 然后 以这个为中心，向两边遍历
+我的思路(有些复杂): 找到 sum/2 的 fatherIdx, 然后 以这个为中心，向两边遍历
 成绩不好:
 Runtime: 1 ms, faster than 49.59% of Java online submissions
 Memory Usage: 38.8 MB, less than 5.05% of Java online submissions
